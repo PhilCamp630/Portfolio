@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: rgb(199, 227, 252);
+}
+
+/* p{
+    color: ;
+} */
+
+nav, .navbar{
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+
+}
+
+.navbar{
+    gap: 100px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 38, 255);
+    text-decoration: underline;
+}
+
+.logo{
+    font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    justify-content: space-around;
+    align-items: center;
+} */
