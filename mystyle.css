@@ -228,3 +228,8 @@ but it works with the code as of right now */
     font-size: 40px;
     margin-top: 50px;
 }
+
+input{
+    height: 100px;
+    font-size: 100px;
+}
