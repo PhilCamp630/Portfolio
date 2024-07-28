@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(199, 227, 252), rgb(86, 112, 134));
+    background-image: linear-gradient(rgb(199, 227, 252), rgb(86, 112, 134)) !important;
     /* height: 100%;
     min-height: 100px;
     background-position: center;
@@ -154,4 +154,77 @@ object {
     font-size: 60px;
     margin-bottom: 40px;
 
+}
+
+.project-section-one{
+    display: inline-flex;  
+}
+
+.project-section-two {
+    display: inline-flex;
+}
+
+.flappy-text{
+    margin-left: 200px;
+}
+
+.project-section-three {
+    display: inline-flex;
+}
+
+.project-section-four {
+    display: inline-flex;
+    
+}
+
+/* need to be more specific with targeting H3 for editing purposes
+but it works with the code as of right now */
+ h3{
+    font-size: 100px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 200px; 
+}
+
+.bio-h{
+  margin-left: 350px; 
+}
+.bio-p{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 26pc;
+    margin-top: 50px;
+}
+
+.jel-h{
+    margin-left:200px;
+}
+
+.jel-p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 23pc;
+
+}
+
+.fla-h{
+    margin-left: 500px;
+}
+
+.fla-p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 25pc;
+}
+
+.col-h{
+    margin-left: 750px;
+}
+
+.col-p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
 }
