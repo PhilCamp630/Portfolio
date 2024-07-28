@@ -126,6 +126,32 @@ object {
 
 }
 
-.project-section{
-    margin: 200px;
+.bio-page{
+    width: 1500px;
+
+}
+.mach-flap{
+    width: 900px;
+}
+.jelly-quiz{
+    width: 1500px;
+
+}
+.color-flip{
+    width: 1500px;
+    margin-bottom: 200px;
+
+}
+
+
+#project-pic{
+    /* width: 1500px; */
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.about-text{
+    font-size: 60px;
+    margin-bottom: 40px;
+
 }
