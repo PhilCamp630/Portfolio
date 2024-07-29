@@ -228,8 +228,15 @@ but it works with the code as of right now */
     font-size: 40px;
     margin-top: 50px;
 }
-
+/* 
+form{
+    display: flex;
+    flex-direction: column;   
+} */
 input{
-    height: 100px;
-    font-size: 100px;
+
+    min-height: 80px;
+    
+
 }
+

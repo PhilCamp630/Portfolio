@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="javascript.js"></script>
+    <script src = "javascript.js"></script>
     <link rel="stylesheet" href="mystyle.css">
 </head>
-<body>
-    <nav>
+<header>
+        <nav>
         <div class="logo">Phillip Campbell</div>
         <div>
             <ul class="navbar">
@@ -19,13 +19,25 @@
             </ul>
         </div>
     </nav>
-    <h1>Contact Me </h1>
-    <form id="form">
-        <input type="name"><br>
-        <input type = "email"><br>
-        <input type="text"><br>
-        <input type="submit" id="submit">
-    </form>
-
+</header>
+<body>
+    <div class = title>
+        <h2 style="font-size:100px; text-align: center;">Contact Me!</h2>
+    </div>
+    <div class="contact-con" id = "con">
+        <form  id="form">
+            <div>
+                <input type ="text" name="name" placeholder="Your Name" class="contact-in" style= "width: 900px; padding: 10px; margin-left: 800px; font-size: 90px; margin-top: 100px; margin-bottom: 150px;" required>
+            </div>
+            <div>
+                <input type ="email" name="email" placeholder="Your Email" class="contact-in" style= "width: 1200px; padding: 10px; margin-left: 800px; font-size: 90px; margin-bottom: 150px;" required>
+            </div>
+            <div>
+                <textarea name="message" placeholder="Your Message" class= "contact-in"  style= "width: 2000px; height: 900px; margin-left: 800px; font-size: 90px;" required></textarea>
+                <br>
+            <button type="submit" id="submit" value="submit" action = "submit" style="width: 400px; margin-left: 800px; height: 100px; font-size: 60px;"> submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
